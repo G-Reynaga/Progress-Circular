@@ -11,20 +11,16 @@ body {
   justify-content: center;
   align-items: center;
   background: #101010;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  min-height: 100vh;
 }
 
 .container {
-  position: relative;
-  width: 900px;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
+  padding: 2rem;
 }
 
 .container .card {
